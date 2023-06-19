@@ -1232,8 +1232,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 1
-  m_Mass: 0.7853982
+  m_UseAutoMass: 0
+  m_Mass: 0.37853983
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1244,9 +1244,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &1549271162
 CircleCollider2D:
@@ -1649,7 +1649,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 3.05
+  m_Mass: 4.63
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2060,6 +2060,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: a17c9397af8ab424795b3c191d0e0cc6, type: 2}
+    - target: {fileID: 2503931815410746889, guid: dae3e44b9c9937246a882929f4fd1b00, type: 3}
+      propertyPath: m_UseLimits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503931815410746889, guid: dae3e44b9c9937246a882929f4fd1b00, type: 3}
+      propertyPath: m_AutoConfigureConnectedAnchor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4584270434433878127, guid: dae3e44b9c9937246a882929f4fd1b00, type: 3}
       propertyPath: m_Material
       value: 
